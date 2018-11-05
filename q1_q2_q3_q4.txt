@@ -1,0 +1,25 @@
+1)
+ *p3=S
+ *p3=T, p3=6940
+ *p1=S, p1=9772
+
+2)  (D) *p=75
+
+3)
+  Error:- It cannot convert ‘char*’ to ‘double*’ in initialization 
+  The problem is in below:-
+  double *p = &c;
+
+4)      The value of ptr=4434
+        The value of temp=A
+	The value of temp=C
+	The value of temp=B
+	The value of temp=A
+	The value of ptr=4435
+	The value of temp=B
+	The value of temp=C
+	The value of ptr=4434
+	The value of temp=B
+	The value of temp=C
+	The value of temp=B
+	The value of temp=C
